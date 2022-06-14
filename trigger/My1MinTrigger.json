@@ -1,0 +1,25 @@
+{
+	"name": "My1MinTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "TxtToSql",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 1,
+				"startTime": "2022-06-14T09:47:00Z",
+				"endTime": "2022-06-15T09:47:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
